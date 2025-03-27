@@ -1,0 +1,42 @@
+/* element selectors */
+/* li{
+    background-color: brown;
+}
+div{
+    border: 3px solid black;
+}
+p{
+    font-size: 30px;
+} */
+
+/* id selectors */
+/* #utkarsh{
+    background-color: bisque;
+}
+#special{
+    font-size: 50px;
+} */
+
+/* class selctors */
+/* .akash{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* attribute selectors */
+/* a[href="http://google.com"]{
+    font-size: 40px;
+    background-color: aquamarine;
+}
+input[disabled]{
+    font-size: 50px;
+    background-color: aquamarine;
+} */
+
+/* universal */
+*{
+    border: 5px solid goldenrod;
+}
+body{
+    border: 10px dotted red;
+}
