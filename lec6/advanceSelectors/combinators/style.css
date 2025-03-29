@@ -1,0 +1,15 @@
+/* section p{
+    color: aqua;
+} */
+
+section div p{
+    color: aqua;
+}
+
+article div p{
+    color: red;
+}
+/* wont work */
+article section p{
+    color: red;
+}
