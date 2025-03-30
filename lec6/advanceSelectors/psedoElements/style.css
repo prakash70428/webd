@@ -1,0 +1,32 @@
+/* div::first-letter{
+    font-size: 50px;
+    color: orange;
+}
+
+p::first-line{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* no works */
+/* span::first-letter{
+    font-size: 100px;
+    color: aquamarine;
+} */
+
+/* a[href="http://google.com"]::first-letter{
+    color: red;
+    font-size: 100px;
+}
+a[href="http://google.com"]::after{
+    content: "hi i am your pseudo element";
+}
+a[href="http://google.com"]::before{
+    content: "hi i am your pseudo element";
+} */
+
+a[href="http://google.com"]::before{
+    content: "\1F347";
+}
+a[href="http://google.com"]::after{
+    content: "\1F353";
+}
