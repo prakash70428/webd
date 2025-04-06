@@ -1,0 +1,33 @@
+/* id */
+#pra{
+    color: red;
+}
+
+/* class */
+.praky{
+    color: greenyellow;
+}
+.demo{
+    font-size: 40px;
+}
+
+/* element */
+div{
+    color: orange;
+}
+div{
+    color: red;
+}
+
+/* inheritance */
+ol{
+    font-size: 30px;
+    color: aquamarine;
+    border: 2px solid black;
+}
+ol>li{
+    color: red;
+    font-size: 40px;
+    border: 2px solid black;
+    background-color: blue;
+}

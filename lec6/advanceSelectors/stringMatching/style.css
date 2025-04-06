@@ -1,0 +1,20 @@
+/* a[href="https://google.com"]{
+    color: greenyellow;
+} */
+
+/* a[href ^= "https"]{
+    color: red;
+} */
+
+/* a[href $= ".org"]{
+   font-size: 50px;
+   color: cyan;
+   border: 2px solid black;
+   text-decoration: line-through;
+   text-decoration: none;
+} */
+
+a[href *= "://"]{
+    font-size: 60px;
+    color: rgb(201, 62, 85);
+}
