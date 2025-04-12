@@ -1,0 +1,41 @@
+/* absolute units */
+/* #abs{
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+} */
+
+/* relative units */
+/* percantage */
+/* .a1{
+    font-size: 50%;
+} */
+ /* .a1{
+    font-size: 200px;
+ }
+.a1 p{
+    font-size: 50%;
+} */
+
+/* em */
+/* .fs{
+    font-size: 20px;
+}
+li{
+    font-size: 2em;
+} */
+
+/* rem */
+/* .fs{
+    font-size: 20px;
+} */
+/* li{
+    font-size: 3rem;
+} */
+
+/* vh and vw */
+#pyara{
+    background-color: aqua;
+    width: 50vw;
+    height: 50vh;
+}

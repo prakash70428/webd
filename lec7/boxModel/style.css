@@ -1,0 +1,32 @@
+.box{
+    background-color: darkcyan;
+    width: 400px;
+    height: 400px;
+    /* border */
+    /* border: 5px dashed yellowgreen; */
+    border: 50px dashed yellowgreen;
+    /* border-top: 5px solid red;
+    border-right: 3px dashed yellow;
+    border-bottom: 5px solid green;
+    border-left: 3px dashed purple; */
+
+    /* margin */
+    /* margin: 100px; */
+    /* margin-top: 90px;
+    margin-right: 60px ;
+    margin-bottom: 50px;
+    margin-left: 100px; */
+
+    /* margin: 90px 60px 50px 100px; */
+
+    /* padding */
+    /* padding: 50px; */
+    /* padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    padding-left: 120px; */
+
+    /* guess the output */
+    /* margin: 50px 70px; */
+    margin: 50px 70px 90px;
+}
