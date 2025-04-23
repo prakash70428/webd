@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 div{
     display: inline-block;
     width: 200px;
@@ -16,10 +20,40 @@ div{
 } */
 
 /* relative position */
-#relative #middle{
+/* #relative #middle{
     position: relative;
     top: 100px;
     left: 100px;
     right: 100px;
     bottom: 100px;
+} */
+
+/* absolute position */
+/* #absolute{
+    position: relative;
+    border: 2px solid black;
+}
+#absolute #middle{
+    position: absolute;
+    top: 100px;
+} */
+
+/* fixed position */
+/* #fixed{
+    position: relative;
+    border: 2px solid black;
+}
+#fixed #middle{
+    position: fixed;
+    top: 0px;
+} */
+
+/* sticky postion */
+#sticky{
+    height: 700px;
+    border: 2px solid black;
+}
+#sticky #middle{
+    position: sticky;
+    top: 100px;
 }
