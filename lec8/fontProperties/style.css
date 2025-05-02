@@ -1,0 +1,28 @@
+p:nth-of-type(1){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 3rem;
+    /* letter-spacing: 1rem; */
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+
+    /* text-shadow: 5px -5px 1px red; */
+
+    text-shadow: 1px 1.2px 7px red,
+    1.1px 1.3px 7px rgb(64, 255, 0),
+    1.2px 1.4px 8px rgb(0, 102, 255),
+    1.3px 1.5px 8px rgb(234, 255, 0)
+    ;
+
+    border: 2px solid black;
+    /* box-shadow: 5px 5px 1px grey; */
+
+    box-shadow: 1px 1.2px 7px red,
+    1.1px 1.3px 7px rgb(64, 255, 0),
+    1.2px 1.4px 8px rgb(0, 102, 255),
+    1.3px 1.5px 8px rgb(234, 255, 0);
+}
