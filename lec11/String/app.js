@@ -1,4 +1,4 @@
-let str = 'prakashkumar.india@gmail.com'
+let str = '      prakashkumar.india@gmail.com'
 console.log(str);
 
 //1.substr method
@@ -30,3 +30,9 @@ console.log(str);
 //replaceAll
 // console.log(str.replaceAll('a','#'));
 
+//toLowerCase
+
+//toUpperCase
+
+//trim
+console.log(str.trim())
