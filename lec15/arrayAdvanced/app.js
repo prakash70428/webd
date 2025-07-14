@@ -43,12 +43,12 @@
 // console.log(marks);
 
 //4. sort 
-// let arr = [16,12,2,34,53,88,90,36,76];
-let arr = ['sam' ,'samridhi', 'aryan' ,'aarav','ayush','AArav','Ayush' ]
+let arr = [16,12,2,34,53,88,90,36,76];
+// let arr = ['sam' ,'samridhi', 'aryan' ,'aarav','ayush','AArav','AAyush' ]
 
 let newArray = arr.sort( function(a,b){
-    // return a - b; //asc
-    return b - a;
+    return a - b; //asc
+    // return b - a;
 } )
 
 console.log(newArray);
