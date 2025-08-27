@@ -24,22 +24,48 @@
 
 //example 2:
 
+// let p1 = new Promise( (resolve , reject) => {
+//         console.log('3 second ka wait kro kaam in process...');
+
+//         setTimeout( () => {
+//             // resolve();
+//             reject();
+            
+//         } , 3000 );
+// } )
+
+// p1.then( () => {
+//     console.log('kaam process hogya!');
+// }).catch( () => {
+//     console.log('error aagya bhai !')
+// } )
+
+//------------------------
+// .then() chaining //arise kar rahi hai problem vertical direction mein
+
 let p1 = new Promise( (resolve , reject) => {
         console.log('3 second ka wait kro kaam in process...');
 
         setTimeout( () => {
-            // resolve();
-            reject();
+            resolve();
+            // reject();
             
         } , 3000 );
 } )
 
 p1.then( () => {
-    console.log('kaam process hogya!');
-}).catch( () => {
-    console.log('error aagya bhai !')
-} )
+    return new Promise( (resolve , reject) => {
+        console.log('promise run kardiya hai intezaar karo...');
+        setTimeout( () => {
+            console.log('2 second lag gye bhai shab');
+            resolve();
+        } , 2000 )
 
+    } )
+})
+.then( () => {
+    console.log('dono kaam hogya hai mera!')
+} )
 
 
 
