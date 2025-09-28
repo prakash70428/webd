@@ -6,6 +6,7 @@ let magicNum = 68;
 console.log('utkarsh sab kuch js mein shikha hai');
 
 function sqr(num){
+    // console.log(num * num);
     return num * num;
 }
 
