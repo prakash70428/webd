@@ -13,6 +13,10 @@ app.get('/' , (req,res) => {
     res.render('index');
 })
 
+app.get('/amount', () => {
+    res.rend
+})
+
 //random file route
 app.get('/random' , (req,res) => {
     //logic likhne ke baad ans ko template ke andr bhej dengey
